@@ -1,157 +1,22 @@
-<!-- hello to you seing my code, you stalker! but i dont blame you, i also do that too, so dont worry. --> 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>neapolt's portfolio</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-}
-
-body {
-  min-height: 100vh;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background: radial-gradient(circle at 20% 30%, #111 0%, #000 60%),
-              radial-gradient(circle at 80% 70%, #0a0a0a 0%, #000 70%);
-  overflow: hidden;
-}
-
-.bg, .bg2 {
-  position: absolute;
-  filter: blur(120px);
-  z-index: 0;
-}
-
-.bg {
-  width: 40vw;
-  height: 40vw;
-  background: rgba(88, 166, 255, 0.08);
-  top: 10%;
-  left: 15%;
-}
-
-.bg2 {
-  width: 35vw;
-  height: 35vw;
-  background: rgba(255, 255, 255, 0.04);
-  bottom: 10%;
-  right: 15%;
-}
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 60px;
-  position: relative;
-  z-index: 1;
-  animation: fade 0.8s ease;
-}
-
-.text {
-  flex: 1;
-}
-
-.text h1 {
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.text p {
-  color: #aaa;
-  font-size: clamp(1rem, 1.2vw, 1.2rem);
-  max-width: 500px;
-  line-height: 1.6;
-  margin-bottom: 16px;
-}
-
-.image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.image img {
-  width: clamp(220px, 25vw, 320px);
-  height: clamp(220px, 25vw, 320px);
-  object-fit: cover;
-  border-radius: 14px;
-
-  mix-blend-mode: multiply;
-
-  box-shadow: 0 0 40px rgba(88, 166, 255, 0.1);
-  transition: 0.3s;
-}
-
-.image img:hover {
-  transform: scale(1.05);
-}
-
-@keyframes fade {
-  from { opacity: 0; transform: translateY(15px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .text p {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-</style>
+  <meta charset="UTF-8">
+  <title>neapolt's portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: black;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+  </style>
 </head>
-
 <body>
-
-<div class="bg"></div>
-<div class="bg2"></div>
-
-<div class="container">
-  
-  <div class="text">
-    <h1>Neapolt's Future Portfolio - WIP</h1>
-
-    <p>
-      Hello, I'm Guilherme but known online as neapolt, I'm still a student that is currently learning.
-    </p>
-
-    <p>
-      I'm mainly studying Advanced Excel, SQL, Python and others related to data. ;)
-    </p>
-
-    <p>
-      "Data without definitions is just noise."
-    </p>
-  </div>
-
-  <div class="image">
-    <img src="https://thumbs.dreamstime.com/b/capybara-dressed-as-construction-worker-safety-gear-charming-humorous-image-capybara-dressed-as-construction-390111855.jpg">
-  </div>
-
-</div>
-
+  <h1>Work in Progress</h1>
 </body>
 </html>
-
-
